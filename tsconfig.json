@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", // <- Versão do javascript
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "rootDir": "./src", // <- Todas as fontes em typescript
+    "outDir": "./dist", // <- Todos os arquivos compilados
+    "strict": true,
+    "esModuleInterop": true, //talvez seja aqui em que o node_modules é pulado
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}

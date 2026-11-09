@@ -1,0 +1,36 @@
+{
+  "name": "apidecapitais",
+  "version": "1.0.0",
+  "description": "Atividade com aplicação de Express, TypeScript e Node.js segundo os tutoriais do professor.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bananinhaHtmlPython/apiDeCapitais.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/bananinhaHtmlPython/apiDeCapitais/issues"
+  },
+  "homepage": "https://github.com/bananinhaHtmlPython/apiDeCapitais#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
